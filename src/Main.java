@@ -8,6 +8,7 @@ public class Main{
         tab[2] = 3;
         tab[3] = 5;
         tab[4] = 9;
+        tab[6] = 0;
         for (int i = 0; i < 5; i++)
         {
             System.out.println("Element tablicy = " + tab[i]);
