@@ -1,19 +1,24 @@
-
-public class Main{
+public class Main {
 
     public static void main(String[] args) {
-        int tab[] = new int[5];
-        tab[0] = 6;
-        tab[1] = 6;
-        tab[2] = 3;
-        tab[3] = 5;
-        tab[4] = 9;
-        tab[6] = 0;
-        for (int i = 0; i < 5; i++)
-        {
-            System.out.println("Element tablicy = " + tab[i]);
-        }
+
+        Animal cat = new Animal();
+        cat.name = "Ryś";
+        cat.age = 6;
+        cat.sex = "samiec";
+        cat.weight = 9.0;
+        cat.isAlive = true;
+        cat.breed = "British Shorthair";
+        System.out.println(cat.name);
+        System.out.println(cat.age);
+        System.out.println(cat.weight);
+        System.out.println(cat.sex);
+        System.out.println(cat.isAlive);
+        System.out.println(cat.breed);
     }
 
 }
+
+
+
 
